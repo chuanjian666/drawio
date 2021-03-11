@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T07:53:22.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" version="14.4.7" etag="RVkTHjqZJNa6Gi0S14c6" type="github"><diagram id="EX-2OSdkkOg4-X9nEiQG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-11T08:21:40.666Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="B_3YsGpzAcY6WWEmaY9e" version="14.4.7" type="github">
+  <diagram id="EX-2OSdkkOg4-X9nEiQG" name="Page-1">
+    <mxGraphModel dx="1286" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-5" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.load_balancer;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-8" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;" vertex="1" parent="1">
+          <mxGeometry x="320" y="290" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-9" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;" vertex="1" parent="1">
+          <mxGeometry x="405" y="290" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-12" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.cluster_server" vertex="1" parent="1">
+          <mxGeometry x="210" y="410" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-13" value="LB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="190" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-14" value="Presto Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="292.5" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-15" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.cluster_server" vertex="1" parent="1">
+          <mxGeometry x="290" y="410" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-16" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.cluster_server" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="400" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-17" value="Presto App Group" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="470" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-18" value="Presto Adhoc Group" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="470" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-23" value="" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-24" value="Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="95" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-25" value="" style="endArrow=classic;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shape=flexArrow;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="344" y="140" as="sourcePoint" />
+            <mxPoint x="344" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-27" value="" style="endArrow=classic;html=1;shape=flexArrow;fillColor=#d5e8d4;strokeColor=#82b366;exitX=-0.06;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3Oeu5aUU9gDznXF9pV9w-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="340" as="sourcePoint" />
+            <mxPoint x="280" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-30" value="" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="80" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-31" value="BI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="95" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-34" value="" style="endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;shape=flexArrow;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="140" as="sourcePoint" />
+            <mxPoint x="430" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-36" value="" style="endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;shape=flexArrow;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429.5" y="230" as="sourcePoint" />
+            <mxPoint x="430" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-37" value="" style="endArrow=classic;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shape=flexArrow;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="344.5" y="230" as="sourcePoint" />
+            <mxPoint x="345" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Oeu5aUU9gDznXF9pV9w-39" value="" style="endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;shape=flexArrow;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="452.5" y="340" as="sourcePoint" />
+            <mxPoint x="490" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
