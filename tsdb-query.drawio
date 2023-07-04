@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T09:00:24.198Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="x351wOU4BIVtw2DBwcbR" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-04T09:34:21.735Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="L_8M-9KwnfypUhnlsNzr" version="21.3.2" type="github">
   <diagram name="第 1 页" id="iX-ga6FuyarV50mPAewc">
-    <mxGraphModel dx="1194" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,8 +18,8 @@
         <mxCell id="RGq1c4zs5kMfCRphSGWV-11" value="kafka" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="10" y="210" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RGq1c4zs5kMfCRphSGWV-19" value="3. Dispatch by &lt;br&gt;topic partition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontSize=14;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="180" y="430" as="geometry">
+        <mxCell id="RGq1c4zs5kMfCRphSGWV-19" value="3. Dispatch&lt;br&gt;each org&#39;s topic by partition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontSize=14;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="170" y="430" as="geometry">
             <mxPoint x="233" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -72,8 +72,8 @@
             <mxPoint x="233" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RGq1c4zs5kMfCRphSGWV-38" value="2. Get by orgId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontSize=14;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="190" y="200" as="geometry">
+        <mxCell id="RGq1c4zs5kMfCRphSGWV-38" value="2. Get controller by orgId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontSize=14;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="170" as="geometry">
             <mxPoint x="246" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
